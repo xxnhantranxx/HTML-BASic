@@ -1,0 +1,65 @@
+.container{
+    max-width: 1170px;
+
+    /* margin-top:0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; */
+
+    margin: 0 auto;
+    /* margin: 0 auto 0 auto; */
+}
+#header{
+    background: #fc5831;
+    height: 60px;
+}
+/* Flex box */
+.block_header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.block_header > #logo{
+    flex:1;
+}
+.block_header > #logo img{
+    width: 63px;
+    height: auto;
+}
+/* display inline-block; */
+.main-menu{
+    display: flex;
+}
+.main-menu li.item{
+    list-style: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.main-menu li.item.singup{
+    margin-left: 10px;
+}
+.main-menu li.item.singup > a{
+    background:#fff0;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 5px;
+    padding:15px 18px;
+}
+.main-menu li.item > a{
+    padding:15px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;   
+}
+.main-menu li.item > a:hover{
+    background: #0f344c;
+}
+.main-menu li.item.singup > a:hover{
+    background: #fff;
+    color: #fc5831;
+}
+/*khái niệm position */
